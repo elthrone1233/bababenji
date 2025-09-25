@@ -587,19 +587,13 @@ main{
 
 
 /*  disclaimer area start */
-@media (max-width: 200px) {
-  .footer {
-    min-height: 200px !important; /* Example: set a minimum height */
-    height: auto; /* Allow content to dictate height if it exceeds min-height */
-  }
-}
 
 footer{
    background-image: url(img/footer.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top center;
-  
+   /* height: 1100px; */
    padding: 100px 0 0;
    margin-top: -75px;
    position: relative;
@@ -614,7 +608,7 @@ footer{
 .tools-list ul{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 12px;
     margin-top: 100px;
 }
 .tools-list ul li a img{
