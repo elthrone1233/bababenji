@@ -445,7 +445,7 @@ main{
 }
 
 .about-left h2 span{
-    color: #EB5C3D;
+    
     text-align: center;
     leading-trim: both;
     text-edge: cap;
@@ -455,6 +455,9 @@ main{
     font-weight: 400;
     line-height: 100%; /* 100px */
     text-transform: uppercase;
+    -webkit-text-stroke: 3px #29c26d;
+    color: #008a22;
+ 
 }
 
 
@@ -490,8 +493,8 @@ main{
 
 
 .token-title h2{
-    color: #EB5C3D;
-
+   -webkit-text-stroke: 3px #29c26d;
+    color: #008a22;
     leading-trim: both;
     text-edge: cap;
     font-family: "DK Frozen Memory";
@@ -584,13 +587,19 @@ main{
 
 
 /*  disclaimer area start */
+@media (max-width: 200px) {
+  .footer {
+    min-height: 200px !important; /* Example: set a minimum height */
+    height: auto; /* Allow content to dictate height if it exceeds min-height */
+  }
+}
 
 footer{
    background-image: url(img/footer.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top center;
-   /* height: 1100px; */
+  
    padding: 100px 0 0;
    margin-top: -75px;
    position: relative;
@@ -605,7 +614,7 @@ footer{
 .tools-list ul{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 5px;
     margin-top: 100px;
 }
 .tools-list ul li a img{
@@ -634,7 +643,8 @@ footer{
     padding-left: 250px;
 }
 .ds-wrapper h2{
-    color: #EB5C3D;
+      -webkit-text-stroke: 3px #29c26d;
+    color: #008a22;
     leading-trim: both;
     text-edge: cap;
     font-family: "DK Frozen Memory";
